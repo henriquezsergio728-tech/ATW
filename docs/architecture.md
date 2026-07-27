@@ -24,6 +24,3 @@ Express routes
 
 The overview route calls the five services concurrently. It uses isolated results instead of failing the whole request when one dependency is unavailable. This is a first example of partial failure: the ATW server can be healthy while one upstream provider is not.
 
-## Not included yet
-
-The first milestone deliberately excludes a database, authentication, cache, message queue, frontend, Docker, and AWS deployment. Those can be added only when a course requirement gives them a clear purpose.

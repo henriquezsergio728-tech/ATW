@@ -1,6 +1,6 @@
 # ATW — Public API Server
 
-A small backend project for **Architecture for Web Technologies**. The server fetches and normalizes useful information from five public APIs without implementing the presentation layer yet.
+A small backend project for **Arquitectura para tecnologias de la web**. The server fetches and normalizes useful information from five public APIs without implementing the presentation layer yet.
 
 ## First milestone
 
@@ -88,14 +88,5 @@ or:
 ```
 
 This makes latency and partial failure visible before adding any user interface.
-
-## Suggested progression
-
-1. Verify and document all five integrations.
-2. Decide how to present the information.
-3. Add validation and automated tests.
-4. Add caching, retry policy, and structured logging.
-5. Containerize the service.
-6. Deploy it to an AWS service and compare deployment options.
 
 See `docs/architecture.md` and `docs/api-catalog.md` before changing the structure.
